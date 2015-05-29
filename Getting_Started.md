@@ -17,7 +17,9 @@ Go to http://ecommons.med.harvard.edu/ and follow guidelines for New User Regist
 Go to https://rc.hms.harvard.edu/account.html and use your new eCommons ID. New user accounts are added to the request tracking system queue, so it may take a few hours for them to set up your account.
 
 Now you're ready to `ssh` onto `Orchestra` using your new eCommons ID and password:  
-`ssh your_eCommons_ID@orchestra.med.harvard.edu`
+```
+ssh your_eCommons_ID@orchestra.med.harvard.edu
+```
 
 ### Additional useful tips and hints
 
@@ -25,23 +27,25 @@ Now you're ready to `ssh` onto `Orchestra` using your new eCommons ID and passwo
 Get to work faster! Life's too short to spent it typing out passwords. Set up [lazy `ssh`](http://jefworks.com/stupid-must-knows-lazy-ssh/) so you can log in to `Orchestra` or other virtual servers using short aliases and without being prompted for a password. 
 
 Example `~/.ssh/config` file:  
-`Host or
+```
+Host or
    HostName orchestra.med.harvard.edu
    User your_eCommons_ID
    ServerAliveInterval 15
    ServerAliveCountMax 3
    ForwardX11 yes  
-   ForwardX11Timeout 596h`
+   ForwardX11Timeout 596h
+```
 
 We recommend enabling `X11` forwarding (`ForwardX11 yes`) so you can view the plots you generate as you're working. You may also need to prevent `X11` from timing out with the `ForwardX11Timeout 596h` option. We also recommend using `ServerAliveInterval` option to prevent "Write failed: Broken pipe" errors. The value `ServerAliveInterval` defines the interval in seconds between two operations that keeps to connection alive. Decrease this number if broken pipe errors persist.
 
 **Using different software versions**
 The proper way to load different software versions (for example, of `R`) on `Orchestra` is by loading as an environment module:  
-`$ module load stats/R/3.1.0
-$ R`  
-Do not load from the installation directory such as:  
-`$ /opt/R-3.1.0/bin/R`  
-As this may affected package dependencies and cause other issues.
+```
+module load stats/R/3.1.0
+R
+```  
+Do not load from the installation directory such as `/opt/R-3.1.0/bin/R` as this may affected package dependencies and cause other issues.
 
 **Bash aliases**  
 
@@ -60,7 +64,9 @@ We also have dedicated servers that are just for us! `pk` is a two-CPU Xeon serv
 ### Getting started on `pk`
 
 Ask Peter to get you an account. You will be able to get onto `pk` via `ssh`:
-`ssh your_username@pklab.med.harvard.edu`  
+```
+ssh your_username@pklab.med.harvard.edu
+```  
 
 ### Additional useful tips and hints
 
@@ -68,7 +74,9 @@ Many of the tips and hints for `Orchestra` are also applicable for `pk` but here
 
 *** Using web-based R-studio ***
 To connect to the `pk` R-studio, you need to create a tunnel: 
-`ssh -L8787:localhost:8787  your_username@pklab.med.harvard.edu`
+```
+ssh -L8787:localhost:8787  your_username@pklab.med.harvard.edu
+```
 Then you can open a browser and go to `localhost:8787` in order to access R-studio. You will have to sign in again using your `pk` credentials. 
 
 Author: Jean Fan, Peter Kharchenko
