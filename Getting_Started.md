@@ -114,7 +114,7 @@ We have a lab mailing list `PKLAB@LISTSERV.MED.HARVARD.EDU`. Contact Peter to be
 ### Additional Mailing Lists
 
 Some additional mailing lists you may be interested in joining:
--  CBMI Trainees `[CBMI-TRAINEES@LISTSERV.MED.HARVARD.EDU`
+-  CBMI Trainees `CBMI-TRAINEES@LISTSERV.MED.HARVARD.EDU`
 
 ## Lab Dropbox
 
