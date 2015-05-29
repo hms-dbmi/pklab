@@ -47,16 +47,30 @@ R
 ```  
 Do not load from the installation directory such as `/opt/R-3.1.0/bin/R` as this may affected package dependencies and cause other issues.
 
-**Bash aliases**  
-
-**Custom themes**  
-
 **Setting up ESS**  
 
 [ESS](http://ess.r-project.org/) is an add-on to emacs to allow easy editing of scripts while running R or other stat packages. Those who use emacs may want to consider setting up ESS to interact with R. 
 
+To enable ESS, you will need to install it in your local directory such as your home directory:
+```
+cd /path/to/local_directory/
+git clone https://github.com/emacs-ess/ESS.git 
+cd ESS/
+make
+```
+
+Modify `~/.emacs`
+```
+(add-to-list 'load-path "/path/to/local_directory/ESS/lisp/")
+(load "ess-site")
+```
+You can also add to your load path a local themes library and load different [fun color themes](http://emacsthemes.caisah.info/)
+
+Now when you create a new `.R` file with `emacs`, you can execute commands via `ESS` as usual with `C-c C-c`. 
 
 **Managing your jobs**
+
+
 
 ## `pk` servers
 We also have dedicated servers that are just for us! `pk` is a two-CPU Xeon server with 12TB of storage hosted at the Markely Group data center. To work on `pk`, you will need a different account:
@@ -72,7 +86,7 @@ ssh your_username@pklab.med.harvard.edu
 
 Many of the tips and hints for `Orchestra` are also applicable for `pk` but here are a few additional tips and hints more relevant to `pk`. 
 
-*** Using web-based R-studio ***
+*** Using web-based R-studio ***  
 To connect to the `pk` R-studio, you need to create a tunnel: 
 ```
 ssh -L8787:localhost:8787  your_username@pklab.med.harvard.edu
