@@ -42,7 +42,8 @@ Host or
 
 We recommend enabling `X11` forwarding (`ForwardX11 yes`) so you can view the plots you generate as you're working. You may also need to prevent `X11` from timing out with the `ForwardX11Timeout 596h` option. We also recommend using `ServerAliveInterval` option to prevent "Write failed: Broken pipe" errors. The value `ServerAliveInterval` defines the interval in seconds between two operations that keeps to connection alive. Decrease this number if broken pipe errors persist.
 
-#### Using different software versions**
+#### Using different software versions
+
 The proper way to load different software versions (for example, of `R`) on `Orchestra` is by loading as an environment module:  
 ```
 module load stats/R/3.1.0
@@ -73,7 +74,10 @@ Now when you create a new `.R` file with `emacs`, you can execute commands via `
 
 #### Managing your jobs
 
-
+Add following `bash alias` for a quick `js` command that shows breakdown of job status:
+```
+alias js='bjobs | perl -e '\''<>; while(<>) {split; $tab{$_[2]}++; }; print "$_\t$tab{$_}\n" for (keys %tab);'\'''
+```
 
 ## `pk` servers
 We also have dedicated servers that are just for us! `pk` is a two-CPU Xeon server with 12TB of storage hosted at the Markely Group data center. To work on `pk`, you will need a different account:
@@ -97,4 +101,14 @@ ssh -L8787:localhost:8787  your_username@pklab.med.harvard.edu
 ```
 Then you can open a browser and go to `localhost:8787` in order to access R-studio. You will have to sign in again using your `pk` credentials. 
 
-Author: Jean Fan, Peter Kharchenko
+# Administrative Resources
+
+## Lab Notebook
+
+## Lab Mailing List
+
+## Lab Dropbox
+
+
+
+*Authors: Jean Fan, Peter Kharchenko*
