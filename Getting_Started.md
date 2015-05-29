@@ -111,6 +111,11 @@ We keep a lab notebook via [OneNote](https://www.onenote.com). Contact Peter to 
 
 We have a lab mailing list `PKLAB@LISTSERV.MED.HARVARD.EDU`. Contact Peter to be added to receive lab emails and also for post permissions. 
 
+### Additional Mailing Lists
+
+Some additional mailing lists you may be interested in joining:
+-  CBMI Trainees `[CBMI-TRAINEES@LISTSERV.MED.HARVARD.EDU`
+
 ## Lab Dropbox
 
 We have a 1TB lab [Dropbox account](https://www.dropbox.com/home). Contact Peter for login information.
