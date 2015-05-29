@@ -105,10 +105,15 @@ Then you can open a browser and go to `localhost:8787` in order to access R-stud
 
 ## Lab Notebook
 
+We keep a lab notebook via [OneNote](https://www.onenote.com). Contact Peter to have the lab notebook shared with you. 
+
 ## Lab Mailing List
+
+We have a lab mailing list `PKLAB@LISTSERV.MED.HARVARD.EDU`. Contact Peter to be added to receive lab emails and also for post permissions. 
 
 ## Lab Dropbox
 
+We have a 1TB lab [Dropbox account](https://www.dropbox.com/home). Contact Peter for login information.
 
 
 *Authors: Jean Fan, Peter Kharchenko*
