@@ -4,6 +4,7 @@
 - [An R metablog](http://www.r-bloggers.com/)
 - [A set of R hints, in particular how to run R in a batch mode](http://www.math.ncu.edu.tw/~chenwc/R_note/)
 - [A list of useful bioconductor topics and exercises](http://manuals.bioinformatics.ucr.edu/home/R_BioCondManual)
+- [R Style Guide](http://jefworks.github.io/R-style-guide/)
 
 # Specific Topics in R
 
