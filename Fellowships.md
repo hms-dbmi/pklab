@@ -2,7 +2,7 @@
 
 Although most science PhD programs will fund you these days, with the first one or two years being paid for by the department and the remaining paid for by your PhD advisor, having a Fellowship means that the PI will not need to worry about funding you (plus it's good experience and looks great on your resume). Below are a few federal and private fellowships that members in the lab have experience in applying for:
 
-## For senior undergraduate or early pre-doctoral students
+## For senior undergraduate or early graduate students 
 - [The National Science Foundation Graduate Research Fellowship Program](http://www.nsfgrfp.org/)
   - [Sample essay from Jean](http://jefworks.com/portfolio/nsf-grfp-sample-essays-and-advice/)
 - [The Fannie and John Hertz Foundation Graduate Fellowship Program](http://www.hertzfoundation.org/dx/fellowships/fellowshipaward.aspx)
@@ -11,7 +11,7 @@ Although most science PhD programs will fund you these days, with the first one 
 - [The Ford Foundation Predoctoral Fellowship](http://sites.nationalacademies.org/PGA/FordFellowships/PGA_047958)
 - [Department of Energy Computational Science Graduate Fellowship](http://www.krellinst.org/csgf/)
 
-## For mid to late pre-doctoral students
+## For mid to late graduate students 
 - [F31 grant](http://grants.nih.gov/grants/funding/ac_search_results.htm?text_curr=f31&Search_Type=Activity)
 
 ## For Non-US Applicants
