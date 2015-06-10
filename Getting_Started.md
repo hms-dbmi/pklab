@@ -23,6 +23,10 @@ Now you're ready to `ssh` onto `Orchestra` using your new eCommons ID and passwo
 ssh your_eCommons_ID@orchestra.med.harvard.edu
 ```
 
+### Group space
+
+In addition to your home directory, Kharchenko lab has additional space under `/groups/pklab/`
+
 ### Additional useful tips and hints
 
 #### Lazy SSH
