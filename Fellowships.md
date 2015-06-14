@@ -29,7 +29,7 @@ Although most science PhD programs will fund you these days, with the first one 
 - Hope Funds 
 - Life Sciences Foundation 
 - Helen Hey Whitney Foundation 
-- Human Frontier Sciences Foundation - no more than 8 months postdoc experience by the deadline. This is tricky because it favors people starting in spring and disqualifies people starting in winter. 
+- Human Frontier Sciences Foundation ("In order to be eligible you must not have worked longer than 12 months at the host laboratory at the time of taking up the award. Since the earliest date an award can be activated is 1 April 2016, if you started working at the host laboratory prior to 1 April 2015, then you are no longer eligible.")
 - Canadian Institutes Health Research - at least 2 fellowship programs. Applicants need to receive Ph.D from a Canadian institute.
 
 ## Other fellowships and lists
